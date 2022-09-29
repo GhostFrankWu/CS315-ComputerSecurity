@@ -5,6 +5,13 @@
 ## 任务1 编译有漏洞的服务器程序
 `gcc -z execstack -o server server.c -m32`  
 编译，爆出警告，属于是静态分析（匹配）就能找到的漏洞警告  
+这个检测实际是gcc的
+```
+-Wformat -Wformat-nonliteral -Wformat-security -Wformat-y2k
+```
+选项干的，相当于`-Wformat=2`  
+一般版本是默认开启的，当然也有些奇怪的情况会自动关闭
+
 ![图 2](images/195e23810f8b0b73a1215109248670cc707edbbd2413e0e30e16e32dea970a4d.png)  
 
 ## 任务2 分析漏洞程序的栈结构
