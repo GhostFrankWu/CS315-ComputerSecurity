@@ -8,7 +8,7 @@
 
 周&内容 | 内容 | 得分 | 备注  
 -- | --- | -- | --
-1 | [实验课](week1/lab.md) | 50 / 60 | 第四问-10
+1 | [实验课](week1/lab.md) | N / A | -
 流量包分析 | [CTF](week1/ctf.md) | 10 / 10 | 完成bonus
 2 | [实验课](week2/lab.md) | - | -
 缓冲区溢出 | [CTF](week2/ctf.md) | - | 未完成bonus
