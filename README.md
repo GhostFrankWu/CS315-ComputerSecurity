@@ -13,4 +13,4 @@
 2 | [实验课](week2/lab.md) | - | -
 缓冲区溢出 | [CTF](week2/ctf.md) | - | 未完成bonus
 3 | [实验课](week3/lab.md) | - | -
-格式化字符串 | [CTF](week3/ctf.md) | - | 完成bonus
+格式化字符串 | [CTF](week3/wp.md) | - | 完成bonus
