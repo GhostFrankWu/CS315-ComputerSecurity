@@ -14,3 +14,5 @@
 缓冲区溢出 | [CTF](week2/ctf.md) | 10 / 10 | 未完成bonus
 3 | [实验课](week3/lab.md) | - | -
 格式化字符串 | [CTF](week3/wp.md) | 10 / 10 | 完成bonus
+4 | - | - | -
+渗透测试 | [实验课](week4/lab.md) | - | -
