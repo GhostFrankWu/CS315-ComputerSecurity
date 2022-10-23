@@ -10,9 +10,9 @@
 -- | --- | -- | --
 1 | [实验课](week1/lab.md) | 60 / 60 | -
 流量包分析 | [CTF](week1/ctf.md) | 10 / 10 | 完成bonus
-2 | [实验课](week2/lab.md) | - | -
+2 | [实验课](week2/lab.md) | 60 / 60 | -
 缓冲区溢出 | [CTF](week2/ctf.md) | 10 / 10 | 未完成bonus
-3 | [实验课](week3/lab.md) | - | -
+3 | [实验课](week3/lab.md) | 60 / 60 | -
 格式化字符串 | [CTF](week3/wp.md) | 10 / 10 | 完成bonus
 4 | - | - | -
 渗透测试 | [实验课](week4/lab.md) | - | -
