@@ -15,4 +15,6 @@
 3 | [实验课](week3/lab.md) | 60 / 60 | -
 格式化字符串 | [CTF](week3/wp.md) | 10 / 10 | 完成bonus
 4 | - | - | -
-渗透测试 | [实验课](week4/lab.md) | - | -
+渗透测试 | [实验课](week4/lab.md) | 60 / 60 | -
+5 | [实验课](week5/lab.md) | - | -
+逆向工程 | [CTF](week5/wp.md) | - | 完成bonus
