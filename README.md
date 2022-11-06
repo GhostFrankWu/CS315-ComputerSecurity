@@ -8,13 +8,21 @@
 
 周&内容 | 内容 | 得分 | 备注  
 -- | --- | -- | --
-1 | [实验课](week1/lab.md) | 60 / 60 | -
-流量包分析 | [CTF](week1/ctf.md) | 10 / 10 | 完成bonus
-2 | [实验课](week2/lab.md) | 60 / 60 | -
-缓冲区溢出 | [CTF](week2/ctf.md) | 10 / 10 | 未完成bonus
-3 | [实验课](week3/lab.md) | 60 / 60 | -
+1 | | | 
+流量包分析 | [实验课](week1/lab.md) | 60 / 60 | 
+流量杂项 | [CTF](week1/ctf.md) | 10 / 10 | 完成bonus
+2 | | | 
+缓冲区溢出 |[实验课](week2/lab.md) | 60 / 60 | 
+二进制利用 | [CTF](week2/ctf.md) | 10 / 10 | 未完成bonus
+3 | | | 
+格式化字符串 | [实验课](week3/lab.md) | 60 / 60 | 
 格式化字符串 | [CTF](week3/wp.md) | 10 / 10 | 完成bonus
-4 | - | - | -
-渗透测试 | [实验课](week4/lab.md) | 60 / 60 | -
-5 | [实验课](week5/lab.md) | - | -
+4 | | | 
+渗透测试 | [实验课](week4/lab.md) | 60 / 60 | 
+5 | | |  
+安卓逆向 | [实验课](week5/lab.md) | - | 完成extra
 逆向工程 | [CTF](week5/wp.md) | - | 完成bonus
+6 | | | 
+IoT二进制利用 | [实验课](week6/lab1.md) | - | 完成extra
+无线渗透 | [实验课](week6/lab2.md) | - | 完成extra  
+逆向工程 | [CTF](week6/wp.md) | - | 完成bonus
