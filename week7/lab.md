@@ -99,13 +99,15 @@ OSLAR的偏移可以在手册7597页找到，另外本页的之后会用到：
 这里叉编踩了坑，钉枪论文中有说v7和v8的汇编需要2字节反序一下...:
 ![图 11](images/d8be94038935d7591ceb521a1e4ce1f835c6e456273fdf59c87e6870623bbe6a.png)  
 
+（课件是R1，故重新叉编一下）   
+
 用上述叉编得到的机器码完成SCR的读取和转存：
 ```c
 	printk(KERN_INFO "Step 7: Read SCR\n");
-  // 0xee110f11 <=> mrc p15, 0, R0, c1, c1, 0
-	execute_ins_via_itr(param->debug_register, 0x0f11ee11);
-	// 0xee000e15 <=> mcr p14, 0, R0, c0, c5, 0
-	execute_ins_via_itr(param->debug_register, 0x0e15ee00);
+  // 0xee111f11 <=> mrc p15, 0, R1, c1, c1, 0
+	execute_ins_via_itr(param->debug_register, 0x1f11ee11);
+	// 0xee001e15 <=> mcr p14, 0, R1, c0, c5, 0
+	execute_ins_via_itr(param->debug_register, 0x1e15ee00);
 	scr = ioread32(param->debug_register + DBGDTRTX_OFFSET);
 ```
 

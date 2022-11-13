@@ -167,10 +167,10 @@ static void read_scr(void* addr) {
 	execute_ins_via_itr(param->debug_register, 0x8003f78f);
 	// Step 7: Read the SCR
 	printk(KERN_INFO "Step 7: Read SCR\n");
-  // 0xee110f11 <=> mrc p15, 0, R0, c1, c1, 0
-	execute_ins_via_itr(param->debug_register, 0x0f11ee11);
-	// 0xee000e15 <=> mcr p14, 0, R0, c0, c5, 0
-	execute_ins_via_itr(param->debug_register, 0x0e15ee00);
+  // 0xee111f11 <=> mrc p15, 0, R1, c1, c1, 0
+	execute_ins_via_itr(param->debug_register, 0x1f11ee11);
+	// 0xee001e15 <=> mcr p14, 0, R1, c0, c5, 0
+	execute_ins_via_itr(param->debug_register, 0x1e15ee00);
 	scr = ioread32(param->debug_register + DBGDTRTX_OFFSET);
 
 	// Step 8: Restore context
