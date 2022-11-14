@@ -26,3 +26,6 @@
 IoT二进制利用 | [实验课](week6/lab1.md) | - | 完成extra
 无线渗透 | [实验课](week6/lab2.md) | - | 完成extra  
 逆向工程 | [CTF](week6/wp.md) | - | 完成bonus
+7 | | | 
+钉枪攻击 | [实验课](week7/lab.md) | - | 
+杂项隐写 | [CTF](week7/wp.md) | - | 完成bonus
