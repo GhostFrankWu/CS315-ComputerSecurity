@@ -20,11 +20,11 @@
 4 | | | 
 渗透测试 | [实验课](week4/lab.md) | 60 / 60 | 
 5 | | |  
-安卓逆向 | [实验课](week5/lab.md) | - | 完成extra
+安卓逆向 | [实验课](week5/lab.md) | 67 / 60 | 完成extra
 逆向工程 | [CTF](week5/wp.md) | - | 完成bonus
 6 | | | 
-IoT二进制利用 | [实验课](week6/lab1.md) | - | 完成extra
-无线渗透 | [实验课](week6/lab2.md) | - | 完成extra  
+IoT二进制利用 | [实验课](week6/lab1.md) | 40 / 30 | 完成extra
+无线渗透 | [实验课](week6/lab2.md) | 33 / 30 | 完成extra  
 逆向工程 | [CTF](week6/wp.md) | - | 完成bonus
 7 | | | 
 钉枪攻击 | [实验课](week7/lab.md) | - | 
