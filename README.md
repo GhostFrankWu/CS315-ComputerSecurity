@@ -33,5 +33,8 @@ IoT二进制利用 | [实验课](week6/lab1.md) | 40 / 30 | 完成extra
 钉枪防御 | [实验课](week8/lab.md) | - | 完成bonus
 杂项隐写 | [CTF](week8/wp.md) | - | 完成bonus
 9 | | | 
-脏牛攻击 | [实验课](week9/lab.md) |  | 
+脏牛攻击 | [实验课](week9/lab.md) | 60 / 60 | 
 开源情报搜集 | [CTF](week9/wp.md) | - | 完成bonus
+10 | | | 
+非对称加密RSA | [实验课](weeka/lab.md) | - | 
+现代密码学 | [CTF](weeka/wp.md) | - | 
