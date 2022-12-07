@@ -38,3 +38,9 @@ IoT二进制利用 | [实验课](week6/lab1.md) | 40 / 30 | 完成extra
 10 | | | 
 非对称加密RSA | [实验课](weeka/lab.md) | - | 
 现代密码学 | [CTF](weeka/wp.md) | - | 
+11 | | | 
+Web漏洞 | [实验课](weekb/lab.md) | - | 
+代码审计，WEB利用 | [CTF](weekb/wp.md) | - | 
+12 | | | 
+ret2libc | [实验课](weekc/lab.md) | - | 
+二进制利用进阶 | [CTF](weekc/wp.md) | - | 
