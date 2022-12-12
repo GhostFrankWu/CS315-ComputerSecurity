@@ -30,19 +30,19 @@ IoT二进制利用 | [实验课](week6/lab1.md) | 40 / 30 | 完成extra
 逆向工程 | [CTF](week6/wp.md) | 10 / 10 | 完成bonus
 7 | | | 
 钉枪攻击 | [实验课](week7/lab.md) | 60 / 60 | 
-杂项隐写 | [CTF](week7/wp.md) | - | 完成bonus
+杂项隐写 | [CTF](week7/wp.md) | 10 / 10 | 完成bonus
 8 | | | 
 钉枪防御 | [实验课](week8/lab.md) | - | 完成bonus
-杂项隐写 | [CTF](week8/wp.md) | - | 完成bonus
+杂项隐写 | [CTF](week8/wp.md) | 10 / 10 | 完成bonus
 9 | | | 
 脏牛攻击 | [实验课](week9/lab.md) | 60 / 60 | 
-开源情报搜集 | [CTF](week9/wp.md) | - | 完成bonus
+开源情报搜集 | [CTF](week9/wp.md) | 10 / 10 | 完成bonus
 10 | | | 
-非对称加密RSA | [实验课](weeka/lab.md) | - | 
-现代密码学 | [CTF](weeka/wp.md) | - | 
+非对称加密RSA | [实验课](weeka/lab.md) | 60 / 60  | 
+现代密码学 | [CTF](weeka/wp.md) | 10 / 10 | 
 11 | | | 
 Web漏洞 | [实验课](weekb/lab.md) | - | 
-代码审计，WEB利用 | [CTF](weekb/wp.md) | - | 
+代码审计，WEB利用 | [CTF](weekb/wp.md) | 10 / 10 | 
 12 | | | 
 ret2libc | [实验课](weekc/lab.md) | - | 
 二进制利用进阶 | [CTF](weekc/wp.md) | - | 
