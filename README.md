@@ -32,7 +32,7 @@ IoT二进制利用 | [实验课](week6/lab1.md) | 40 / 30 | 完成extra
 钉枪攻击 | [实验课](week7/lab.md) | 60 / 60 | 
 杂项隐写 | [CTF](week7/wp.md) | 10 / 10 | 完成bonus
 8 | | | 
-钉枪防御 | [实验课](week8/lab.md) | - | 完成bonus
+钉枪防御 | [实验课](week8/lab.md) | 72 / 60 | 完成bonus
 杂项隐写 | [CTF](week8/wp.md) | 10 / 10 | 完成bonus
 9 | | | 
 脏牛攻击 | [实验课](week9/lab.md) | 60 / 60 | 
