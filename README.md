@@ -44,5 +44,7 @@ IoT二进制利用 | [实验课](week6/lab1.md) | 40 / 30 | 完成extra
 Web漏洞 | [实验课](weekb/lab.md) | 60 / 60 | 
 代码审计，WEB利用 | [CTF](weekb/wp.md) | 10 / 10 | 
 12 | | | 
-ret2libc | [实验课](weekc/lab.md) | - | 
-二进制利用进阶 | [CTF](weekc/wp.md) | - | 
+ret2libc | [实验课](weekc/lab.md) | 60 / 60 | 
+二进制利用进阶 | [CTF](weekc/wp.md) | 10 / 10 | 
+final | | | 
+Attack With Defence | [AWD](awd/wp.md) | 130 / 130 | 
