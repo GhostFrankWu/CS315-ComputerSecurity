@@ -2,8 +2,8 @@
 队员： 
 - 【REDACTED】  
 - 【REDACTED】  
-- [【REDACTED】]  
-- 陈俊峰  
+- 【REDACTED】  
+- 【REDACTED】 
 分工：1:1:1:1 (25%:25%:25%:25%)  
 - 【REDACTED】: PWN题利用(狂炫5000分)，持久化脚本编写，WEB题利用  
 - 【REDACTED】: PWN题修复(写了SECCOMP，全程pwn未被攻陷)  
